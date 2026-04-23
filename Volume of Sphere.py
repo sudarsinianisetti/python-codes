@@ -1,6 +1,4 @@
-Python 3.13.13 (tags/v3.13.13:01104ce, Apr  7 2026, 19:25:48) [MSC v.1944 64 bit (AMD64)] on win32
-Enter "help" below or click "Help" above for more information.
->>> 
-... r=int(input())
-... pi=3.14
-... volume=(4/3) * pi *r**3
+r=int(input())
+pi=3.14
+volume=(4/3) * pi *r**3
+print(f"{volume:.2f}")
